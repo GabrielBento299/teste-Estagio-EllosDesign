@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    margin: 0 auto;
+
+}
+
+#navbar 
+{
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
+  
+#navbar-container {
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+ 
+#navbar-itens, a{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+#navbar-itens a  {
+    color: white;
+      font-weight: 600;
+      font-size: 20px;
+}
+#navbar-itens a:hover  {
+    color: red;
+}
+   
+#navbar-itens li  {
+    padding: 13px;
+     font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 4px solid purple;
+    border-radius: 22px;
+    padding: 13px 22px;
+    cursor: pointer;
+    transition: all .7s;
+    outline: none;
+}
+button:hover {
+    transform: scale(1.05);
+    filter: brightness(1.4);
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 120px;
+ }
+
+ form {
+     display: flex;
+     flex-direction:column;
+     width: 70%;
+     margin-top: 13px;
+  }
+
+ input {
+     margin: 7px;
+     border: none;
+     background-color: white;
+     padding: 22px 13px ;
+     outline: none;
+     border-radius: 13px;
+ }
+
+
+ form [type="submit"]{
+     border-radius: 13px;
+     width: 50%;
+     background-color: rgb(132, 14, 201);
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+     transition: all .4s ease-in-out;
+}
+
+form [type="submit"]:hover{
+    transform: scale(1.2);
+    margin-left: 35px;
+ }
+
+ img {
+     margin-left: 150px;
+ }
+
+ .main-text {
+    color: white;
+    margin-left: 55px;
+}
+
+h2 {
+    color: bisque;
+    font-size: 35px;
+}
+span {
+    color: red;
+    font-size: 44px;
+
+}
+
+p {
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
+footer {
+    background-color:#333;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 50px 0;
+     
+ }
+
+ .social-media {
+    align-items: center;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fab {
+    padding: 25px;
+    font-size: 55px;
+    color: #eee;
+  }
+  
+  .fa-github:hover {
+    transform: scale(1.6);
+    transition: all 0.7s ease-in-out;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-linkedin:hover {
+    transform: scale(1.7);
+    transition: all 0.7s ease-in-out;
+    color: rgb(0, 102, 255);
+  }
