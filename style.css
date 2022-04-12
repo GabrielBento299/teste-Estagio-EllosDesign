@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#navbar {
+    width: 100%;
+    height: 150px;
+    background: #111;
+    background-color: #eee;
+    position:fixed;
+}
+  
+  #navbar-container {
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+ 
+  #navbar-itens, a{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+   }
+  
+   #navbar-itens a  {
+      color: #333;
+      font-weight: 600;
+      font-size: 20px;
+   }
+   
+  #navbar-itens li  {
+    padding: 13px;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+ /* MAIN */
+
+ .main-container {
+    width: 100%;
+    height: 100vh;
+    background: url(assets/blog.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: color;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+}
+
+.main h1 {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.main p {
+    color: white;
+    font-size:15px;
+    margin: 13px
+}
+.main-button {
+    padding: 14px 25px;
+    color: white;
+    margin: 0 auto;
+    background-color: orange;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.main-button:hover {
+    filter: brightness(1.2);
+    transform: scale(1.2);
+}
+ 
+/* PRODUCT */
+
+.container-product {
+    background-color: white;
+    width: 100%;
+    display: flex;  
+    padding: 50px
+ }
+
+.section-product {
+    padding: 15px;
+    text-align: center;
+}
+
+.fa {
+    color: white;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+/* ABOUT */
+
+
+.about-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+}
+
+.about {
+    padding: 50px;
+}
+.about-button {
+    padding: 14px 25px;
+    margin-top: 13px;
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.about-img {
+    width: 50%;
+}
+
+/* BLOG */
+
+.blog-container {
+    display: flex;
+    width: 100%;
+   }
+
+ .blog-title {
+    text-align: center;
+    color: red;
+ }
+
+.blog-info {
+    background-color: #eee;
+    width: 600px;
+    margin: 35px;
+    text-align: start;
+}
+.blog-text {
+    padding: 13px 22px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color:#333;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 50px 0;
+     
+ }
+
+ .social-media {
+    align-items: center;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .fab {
+    padding: 25px;
+    font-size: 55px;
+    color: #eee;
+  }
+  
+  .fa-github:hover {
+    transform: scale(1.6);
+    transition: all 0.7s ease-in-out;
+    color: rgb(0, 0, 0);
+  }
+  
+  .fa-linkedin:hover {
+    transform: scale(1.7);
+    transition: all 0.7s ease-in-out;
+    color: rgb(0, 102, 255);
+  }
+  
+  .fa-youtube:hover {
+    transform: scale(1.8);
+    transition: all 0.7s ease-in-out;
+    color: rgb(0, 0, 0);
+    color: red;
+  }
+  

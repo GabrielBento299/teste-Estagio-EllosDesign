@@ -1,0 +1,40 @@
+#navbar {
+    background-color: #ff0000;
+    position: relative;
+ }
+
+ 
+
+#navbar-itens {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+ 
+.img {
+    width: 100px;
+}
+
+.container-product {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-img {
+    width: 120px;
+}
+
+.blog-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-info {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 13px;
+}
+
+.blog-img {
+    width: 100%;
+}
